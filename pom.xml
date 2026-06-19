@@ -20,7 +20,7 @@
     <description>Backend con SQL Server</description>
 
     <properties>
-        <java.version>25</java.version>
+        <java.version>21</java.version>
         <tomcat.version>10.1.55</tomcat.version>
     </properties>
 
@@ -103,8 +103,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>25</source>
-                    <target>25</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
 
